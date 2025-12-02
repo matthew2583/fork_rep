@@ -28,3 +28,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     testImplementation 'org.jetbrains.kotlin:kotlin-test-junit'
 }
+
+launch4j {
+    mainClassName = 'demo.HelloSwingKt'
+    outfile = 'build/swing-demo.exe'
+}
