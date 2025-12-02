@@ -8,7 +8,10 @@
  */
 
 // Apply the java plugin to add support for Java
-apply plugin: 'java'
+plugins {
+    id 'java'
+    id 'org.gradle.launch4j' version '2.4.13'
+}
 
 // In this section you declare where to find the dependencies of your project
 repositories {
